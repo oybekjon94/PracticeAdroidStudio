@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/fruitIm"
+        android:layout_marginStart="@dimen/vertical_margin"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fruitNameTv"
+        android:textSize="20sp"
+        android:layout_margin="@dimen/vertical_margin"/>
+
+</LinearLayout>

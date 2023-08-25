@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/apple"
+        android:scaleType="centerCrop"
+        android:id="@+id/fruitIm"
+        android:layout_marginStart="@dimen/vertical_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple"
+        android:id="@+id/fruitNameTv"
+        android:textSize="25sp"
+        android:layout_marginStart="@dimen/vertical_margin"/>
+
+</LinearLayout>

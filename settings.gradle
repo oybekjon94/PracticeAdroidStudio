@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "PracticeAdroidStudio"
+include ':app'
+include ':listviewarrayadapter'
+include ':galerygridview'
+include ':fristmultplepageapp'
+include ':expandablelistview'
+include ':spinner'
+include ':recyclerview'
+include ':recyclerviewgalery'
+include ':recyclerviewaddrem'
+include ':listadapterapplication'
